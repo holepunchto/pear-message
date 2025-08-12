@@ -1,6 +1,6 @@
 {
   "name": "pear-message",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "type": "commonjs",
   "description": "Send object messages between a Pear application's processes/threads, pattern matching them with pear-messages",
