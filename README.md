@@ -7,7 +7,7 @@
 ```js
 import message from 'pear-message'
 
-await message({ some: 'props', to: {pattern: ['match', 'against'] }})
+await message({ some: 'props', to: { pattern: ['match', 'against'] } })
 ```
 
 Elsewhere in app use [`pear-messages`](https://github.com/holepunchto/pear-messages):
