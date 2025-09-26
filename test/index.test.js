@@ -1,8 +1,9 @@
 'use strict'
+const IPC = require('pear-ipc')
+global.Pear = {}
 const test = require('brittle')
 const b4a = require('b4a')
 const sodium = require('sodium-native')
-const IPC = require('pear-ipc')
 const { isWindows } = require('which-runtime')
 const message = require('..')
 
